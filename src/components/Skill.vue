@@ -25,6 +25,10 @@
             <img src="../assets/lang/ruby.png" alt="logo" class="lang-image">
             <h3>Ruby</h3>
           </div>
+          <div class="lang">
+            <img src="../assets/lang/java.png" alt="logo" class="lang-image">
+            <h3>Java</h3>
+          </div>
         </div>
         <div class="framework">
           <h2>Framework</h2>
