@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Header id="header"></Header>
-    <div class="res"><h1 class="res-title">Kawakami's Profile</h1></div>
+    <div class="res"><h1 class="res-title"> Portfolio</h1></div>
     <div class="nav-res">
       <a href="#" class="link-content" @click="clickSmoothScroll('#app')">
         <font-awesome-icon icon="image" class="nav-icon"/>
@@ -23,10 +23,8 @@
 
     <div id="top">
       <div id="main">
-      <vue-typer :text="['Hello.\nMy name is Kawakami.\n Thank you for visiting this site. \nNow scroll down.\n\n\n↓\n']" class="top-text" :repeat='0'
-      :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000"></vue-typer>
-    </div>
-    <vue-particles color="#dedede" class="particles"></vue-particles>
+        <h1>Welcome to Tomoki Kawakami's Portfolio Site!</h1>
+      </div>
     </div>
     
 
@@ -77,17 +75,13 @@ export default {
   text-align: center;
 }
 #top{
-  position: relative;
-  /*background-image: url(./assets/yoru2.jpg);*/
-  background-color:#03111a;
-  background-size: cover;
-  height: 100vh;
+  height: 50vh;
 }
 #main{
-  position: absolute;
-  top: 30%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  margin-top: 20%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
 }
 .particles{
   z-index: 1;
@@ -147,36 +141,39 @@ export default {
     font-size: 35px;
   }
 }
-@media screen and (max-width: 768px){
-  .top-text{
+@media screen and (max-width: 768px) {
+  .top-text {
     font-size: 25px;
   }
-  #header{
+  #header {
     display: none;
   }
-  .res{
+  .res {
     display: contents;
     background-color: #03111a;
   }
-  .nav-res{
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  z-index: 1;
-  background-color: #03111a;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  .nav-res {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #03111a;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .content-title {
+    margin-bottom: 30px;
+  }
 }
-.content-title{
-  margin-bottom: 30px;
-}
-}
-@media screen and (max-width: 450px) {
-  .top-text{
-    font-size: 11px;
+
+@media (max-width: 1024px) {
+  #main{
+    font-size: 10px;
+    margin-top: 50%;
+    left: 50%;
   }
 }
 </style>

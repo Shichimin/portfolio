@@ -4,9 +4,11 @@
     <div>
       <div class="about">
         <div class="name">
+          <img src="../assets/profile.jpg" alt="logo">
           <h2>Name</h2>
           <p class="text">川上 智樹 (Tomoki Kawakami)</p>
         </div>
+
         <div class="birthday">
           <h2>Birthday</h2>
           <p class="text">1992-04-14</p>
@@ -17,8 +19,7 @@
             <div class="profile-block">
               <p class="text">文系私大2年次に観賞した「攻殻機動隊 S.A.C.」というアニメ作品に衝撃を受けたことがきっかけとなり、プログラミングやネットワークセキュリティの世界に興味をもつ。</p>
               <p class="text">その後、独学でプログラミングやセキュリティについて勉強していたが、どうせ学ぶならその道の専門家から直接指導を受けたいという考えに至り、ネットワークセキュリティ系の研究室がある大学を選んで再受験。</p>
-              <p class="text">大学在学中はネットワークセキュリティについてや、当時流行していたビットコインウォレットのセキュリティなどを研究しつつ、エンジニアリングスキルの向上を目的として都内のスタートアップ企業で長期インターンも行う。</p>
-              <p class="text">また、ネイティブアプリの個人開発にも興味をもち、iOSやAndroidアプリのリリースも経験。</p>
+              <p class="text">大学在学中はネットワークセキュリティについてや、当時流行していたビットコインウォレットのセキュリティなどを研究しつつ、エンジニアリングスキルの向上を目的として都内のスタートアップ企業で長期インターンも行う。また、ネイティブアプリの個人開発にも興味をもち、iOSやAndroidアプリのリリースも経験。</p>
               <p class="text">趣味として作っていたゲームのシナリオ部分を友人に褒められたことがきっかけとなり、大学卒業後はゲーム会社のシナリオライター職に着いたが、シナリオライターという仕事の性質上、自分が執筆を担当したシナリオが運営中のサービスやプロダクトに対してどの程度貢献しているのか、その度合いを定量的に判断することが難しく、自分の仕事の成果やプロダクトへの貢献具合が実感しやすいエンジニア職に着きたいという気持ちが次第に強くなり、エンジニアとして転職することを決意。</p>
               <p class="text">今後は様々な開発工程を幅広く経験し、いずれは新規サービスをゼロから立ち上げてグロースさせられるような、技術レベルが高いだけでなくビジネスにも貢献できるエンジニアになりたい。</p>
             </div>
@@ -29,9 +30,9 @@
           <div class="summary-content">
             <div class="summary-block">
               <p class="text">2015年12月〜2016年9月 大学在学中にエンジニアインターンとして株式会社divに勤務</p>
-              <p class="text">2016年3月〜2016年8月 大学在学中にiOSエンジニアインターンとしてRepro Inc.に勤務</p>
+              <p class="text">2016年3月〜2016年9月 大学在学中にiOSエンジニアインターンとしてRepro Inc.に勤務</p>
               <p class="text">2018年10月〜2019年6月 株式会社シナリオテクノロジーミカガミ シナリオライター（業務委託）</p>
-              <p class="text">2019年7月〜2020年6月 株式会社スマイルマイスター シナリオライター</p>
+              <p class="text">2019年7月〜現在 株式会社スマイルマイスター シナリオライター</p>
             </div>
           </div>
         </div>
@@ -61,6 +62,15 @@
 	}
 }
 
+.photo {
+  margin-bottom: 5%;
+}
+
+.name img{
+  width: 20%;
+  height: 20%;
+}
+
 .name {
   margin-bottom: 5%;
 }
@@ -88,6 +98,10 @@
   text-align: left;
 }
 
+.profile-block p {
+  text-indent: 1em;
+}
+
 .summary-content {
   display: flex;
   justify-content: center;
@@ -96,6 +110,19 @@
 
 .summary-block .text{
   text-align: left;
+}
+
+/* タブレット表示時 */
+@media (max-width: 1024px) {
+  .profile-block {
+    align-items: center;
+    width: 90%;
+  }
+
+  .name img{
+    width: 50%;
+    height: 50%;
+  }
 }
 
 </style>

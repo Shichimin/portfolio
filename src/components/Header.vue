@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <h1 class="title">Kawakami's Profile</h1>
+      <h1 class="title">Kawakami Portfolio</h1>
       <Nav class="nav"></Nav>
     </div>
   </div>

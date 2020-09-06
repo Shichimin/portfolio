@@ -37,10 +37,10 @@
         </div>
       </li>
       <li class="card">
-        <img class="card-img" src="#" alt="">
+        <img class="card-img" src="../assets/work/portfolio.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">This Site</h1>
-          <p class="card-text">プロフィールサイト</p>
+          <h1 class="card-title">Portfolio Site</h1>
+          <p class="card-text">このサイト</p>
           <p class="card-lang">Language : JavaScript (Vue.js)</p>
           <br>
           <a href="https://github.com/Shichimin/portfolio" class="card-link github-link">Github</a>
@@ -71,6 +71,8 @@
   background: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
+  border: 0.1px solid;
+  border-color: #171515;
 }
 .card-img {
   border-radius: 5px 5px 0 0;
@@ -79,6 +81,7 @@
 }
 .card-content {
   padding: 20px;
+  border-top: 0.1px solid;
 }
 .card-title {
   font-size: 20px;
