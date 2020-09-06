@@ -6,9 +6,9 @@
       <li class="card">
         <img class="card-img" src="../assets/work/imagecollector.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">ImageCollector</h1>
+          <h1 class="card-title">ImageCollector (Restore中)</h1>
           <p class="card-text">Twitterの画像を (一括/選択) 保存できるアプリ</p>
-          <p class="card-lang">Language : Swift</p>
+          <p class="card-lang">Swift</p>
           <br>
           <a href="#" class="card-link">App Store</a>
           <a href="https://github.com/kawakam/ImageCollector" class="card-link github-link">Github</a>
@@ -17,12 +17,12 @@
       <li class="card">
         <img class="card-img" src="../assets/work/ofutari.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">Ofutari</h1>
+          <h1 class="card-title">Ofutari (作成中)</h1>
           <p class="card-text">"行ってみたい"を繋ぐマッチングサービス</p>
-          <p class="card-lang">Language : JavaScript, Ruby (Rails)</p>
+          <p class="card-lang">JavaScript, Ruby (Rails), AWS</p>
           <br>
           <a href="#" class="card-link">Website</a>
-          <a href="#" class="card-link github-link">Github</a>
+          <a href="https://github.com/Shichimin/ofutari" class="card-link github-link">Github</a>
         </div>
       </li>
       <li class="card">
@@ -30,7 +30,7 @@
         <div class="card-content">
           <h1 class="card-title">コトバンクBot</h1>
           <p class="card-text">LINE Messaging APIを利用した辞書Bot</p>
-          <p class="card-lang">Language : Ruby (Rails)</p>
+          <p class="card-lang">Ruby (Rails)</p>
           <br>
           <a href="https://qiita.com/Shichimin/items/52d25f01331a8db97261" class="card-link">Qiita</a>
           <a href="https://github.com/Shichimin/kotobank_linebot" class="card-link github-link">Github</a>
@@ -41,7 +41,7 @@
         <div class="card-content">
           <h1 class="card-title">Portfolio Site</h1>
           <p class="card-text">このサイト</p>
-          <p class="card-lang">Language : JavaScript (Vue.js)</p>
+          <p class="card-lang">JavaScript (Vue.js)</p>
           <br>
           <a href="https://github.com/Shichimin/portfolio" class="card-link github-link">Github</a>
         </div>
