@@ -13,15 +13,11 @@
       </a>
       <a href="#" class="link-content" @click="clickSmoothScroll('#skill')">
         <font-awesome-icon icon="code" class="nav-icon"/>
-        <p class="comment">Skill</p>
+        <p class="comment">Skills</p>
       </a>
       <a href="#" class="link-content" @click="clickSmoothScroll('#work')">
         <font-awesome-icon icon="hammer" class="nav-icon"/>
         <p class="comment">Works</p>
-      </a>
-      <a href="#" class="link-content" @click="clickSmoothScroll('#contact')">
-        <font-awesome-icon icon="handshake" class="nav-icon"/>
-        <p class="comment">Contact</p>
       </a>
     </div>
 
@@ -37,7 +33,6 @@
     <About id="about"></About>
     <Skill id="skill"></Skill>
     <Work id="work"></Work>
-    <Contact id="contact"></Contact>
 
     <Footer></Footer>
   </div>
@@ -51,7 +46,6 @@ import Footer from './components/Footer.vue'
 import About from './components/About.vue'
 import Skill from './components/Skill.vue'
 import Work from './components/Work.vue'
-import Contact from './components/Contact.vue'
 import 'normalize.css'
 export default {
   name: 'App',
@@ -61,7 +55,6 @@ export default {
     About,
     Skill,
     Work,
-    Contact
   },
   methods:{
     clickSmoothScroll (x) {
@@ -81,8 +74,6 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,300&display=swap");
 #app{
-  font-family:'Comic Neue',cursive ;
-  font-style: italic;
   text-align: center;
 }
 #top{

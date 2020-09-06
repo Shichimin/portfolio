@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <p class="title">&copy;2020 Tomoki Kawakami</p>
+    <p class="title">&copy; 2020 Tomoki Kawakami</p>
   </div>
 </template>
 
