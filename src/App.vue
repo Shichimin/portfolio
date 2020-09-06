@@ -9,6 +9,7 @@
 
 <script>
 import HeaderMenu from './components/HeaderMenu';
+import 'normalize.css'
 
 export default {
   name: 'App',
