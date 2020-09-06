@@ -4,45 +4,46 @@
     
     <ul class="works">
       <li class="card">
-        <img class="card-img" src="../assets/work/sky.jpg" alt="">
+        <img class="card-img" src="../assets/work/imagecollector.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">Tavinow</h1>
-          <p class="card-text">自分の行程に合わせた天気予報がわかるアプリ</p>
-          <p class="card-lang">Language : Kotlin</p>
+          <h1 class="card-title">ImageCollector</h1>
+          <p class="card-text">Twitterの画像を (一括/選択) 保存できるアプリ</p>
+          <p class="card-lang">Language : Swift</p>
           <br>
-          <a href="https://github.com/shoma3571/tavinow" class="card-link github-link">Github</a>
+          <a href="#" class="card-link">App Store</a>
+          <a href="https://github.com/kawakam/ImageCollector" class="card-link github-link">Github</a>
         </div>
       </li>
       <li class="card">
-        <img class="card-img" src="../assets/work/graph.png" alt="">
+        <img class="card-img" src="../assets/work/ofutari.png" alt="">
         <div class="card-content">
-          <h1 class="card-title jp">三重県コロナウイルス対策サイト</h1>
-          <p class="card-text">東京都のものから派生したサイト</p>
-          <p class="card-lang">Language : JavaScript(Vue.js,Nuxt.js)</p>
+          <h1 class="card-title">Ofutari</h1>
+          <p class="card-text">"行ってみたい"を繋ぐマッチングサービス</p>
+          <p class="card-lang">Language : JavaScript, Ruby (Rails)</p>
           <br>
-          <a href="https://mie.stopcovid19.jp" class="card-link">Website</a>
-          <a href="https://github.com/shoma3571/covid19-mie/tree/Feature_shoma" class="card-link github-link">Github</a>
+          <a href="#" class="card-link">Website</a>
+          <a href="#" class="card-link github-link">Github</a>
         </div>
       </li>
       <li class="card">
-        <img class="card-img" src="../assets/work/tree.jpg" alt="">
+        <img class="card-img" src="../assets/work/linebot.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">IdeaTree</h1>
-          <p class="card-text">アイデア出しを助けるアプリ</p>
-          <p class="card-lang">Language : JavaScript,Python(Django)</p>
+          <h1 class="card-title">コトバンクBot</h1>
+          <p class="card-text">LINE Messaging APIを利用した辞書Bot</p>
+          <p class="card-lang">Language : Ruby (Rails)</p>
           <br>
-          <a href="https://ideatree7386.herokuapp.com/Idea/" class="card-link">Website</a>
-          <a href="https://github.com/shoma3571/idea-tree" class="card-link github-link">Github</a>
+          <a href="https://qiita.com/Shichimin/items/52d25f01331a8db97261" class="card-link">Qiita</a>
+          <a href="https://github.com/Shichimin/kotobank_linebot" class="card-link github-link">Github</a>
         </div>
       </li>
       <li class="card">
-        <img class="card-img" src="../assets/work/this.png" alt="">
+        <img class="card-img" src="#" alt="">
         <div class="card-content">
-          <h1 class="card-title">This site</h1>
-          <p class="card-text">私のプロフィールサイト</p>
-          <p class="card-lang">Language : JavaScript(Vue.js)</p>
+          <h1 class="card-title">This Site</h1>
+          <p class="card-text">プロフィールサイト</p>
+          <p class="card-lang">Language : JavaScript (Vue.js)</p>
           <br>
-          <a href="https://github.com/shoma3571/-portfolio" class="card-link github-link">Github</a>
+          <a href="https://github.com/Shichimin/portfolio" class="card-link github-link">Github</a>
         </div>
       </li>
     </ul>
