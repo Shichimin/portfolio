@@ -37,6 +37,16 @@
         </div>
       </li>
       <li class="card">
+        <img class="card-img" src="../assets/work/bombergirl.png" alt="">
+        <div class="card-content">
+          <h1 class="card-title">BOMBER GIRL</h1>
+          <p class="card-text">ボンバーマン風のAndroidアプリケーション</p>
+          <p class="card-lang">Java</p>
+          <br>
+          <a href="https://github.com/kawakam/BomberGirl" class="card-link github-link">Github</a>
+        </div>
+      </li>
+      <li class="card">
         <img class="card-img" src="../assets/work/portfolio.png" alt="">
         <div class="card-content">
           <h1 class="card-title">Portfolio Site</h1>
