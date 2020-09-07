@@ -30,9 +30,9 @@
           <div class="summary-content">
             <div class="summary-block">
               <p class="text">2015年12月〜2016年9月 大学在学中にエンジニアインターンとして株式会社divに勤務</p>
-              <p class="text">2016年3月〜2016年9月 大学在学中にiOSエンジニアインターンとしてRepro Inc.に勤務</p>
+              <p class="text">2016年 3月〜2016年9月 大学在学中にiOSエンジニアインターンとしてRepro Inc.に勤務</p>
               <p class="text">2018年10月〜2019年6月 株式会社シナリオテクノロジーミカガミ シナリオライター（業務委託）</p>
-              <p class="text">2019年7月〜現在 株式会社スマイルマイスター シナリオライター</p>
+              <p class="text">2019年 7月〜2020年6月 株式会社スマイルマイスター シナリオライター</p>
             </div>
           </div>
         </div>

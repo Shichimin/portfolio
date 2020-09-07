@@ -23,7 +23,8 @@
 
     <div id="top">
       <div id="main">
-        <h1>Welcome to Tomoki Kawakami's Portfolio Site!</h1>
+        <vue-typer :text="['Welcome to Tomoki Kawakami\'\s Portfolio Site!']" class="top-text" :repeat='0'
+        :preTypeDelay="1000" :typeDelay="120" :preEraseDelay="5000" :eraseDelay="2000"></vue-typer>
       </div>
     </div>
     
@@ -78,7 +79,6 @@ export default {
   height: 50vh;
 }
 #main{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
   margin-top: 20%;
   left: 50%;
@@ -98,7 +98,8 @@ export default {
   color: whitesmoke;
 }
 .vue-typer .custom.char{
-  color: aliceblue;
+  color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-res{
   display: none;
@@ -119,8 +120,8 @@ export default {
   text-align: center;
 }
 .top-text{
-  color: whitesmoke;
-  font-size: 50px;
+  color: black;
+  font-size: 70px;
 }
 .icon{
   font-size: 0.8em;

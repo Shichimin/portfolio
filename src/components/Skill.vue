@@ -117,7 +117,7 @@
 }
 
 /* タブレット表示時 */
-@media (max-width: 1024px) {
+@media (max-width: 1371px) {
   .other-contents {
     display: inline;
   }
