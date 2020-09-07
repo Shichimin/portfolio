@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-inner">
-      <h1 class="title">Kawakami Portfolio</h1>
+      <h2 class="title">T-Portfolio</h2>
       <Nav class="nav"></Nav>
     </div>
   </div>
