@@ -6,7 +6,7 @@
       <li class="card">
         <img class="card-img" src="../assets/work/imagecollector.png" alt="">
         <div class="card-content">
-          <h1 class="card-title">ImageCollector (配信停止中)</h1>
+          <h1 class="card-title">ImageCollector</h1>
           <p class="card-text">Twitterの画像を (一括/選択) 保存できるアプリ</p>
           <p class="card-lang">Swift</p>
           <br>
